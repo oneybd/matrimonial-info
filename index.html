@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      *{margin:0; padding: 0;}
+      body{
+        background-image: url(wedding.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+      }
+
+      .form-size{
+        width : 780px;
+        height: 90%;
+        background-color: #ffffffd4;
+      }
+      label{
+        font-weight: bold;
+      }
+      .box {
+        margin: 0px;
+        padding: 4px;
+      }
+      .inline{
+        display: inline-block;
+      }
+
+     
+
+    </style>
+
+    
+  </head>
+  <body>
+
+  <div class="wrapper form-size mx-auto p-3">
+  <div class="container">
+      <div class="row text-center py-4">
+        <h3 class="text-uppercase">Matrimonial Registration Form</h3>
+        <p>Muna Social Services and Family Development Department</p>
+      </div>
+    </div>
+ 
+   <form class="form-group" action="/">
+    <div class="container">
+      <div class="row text-center bg-secondary text-light border rounded box">
+        <h5> CANDIDATE'S PERSONAL INFORMATION</h5>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row g-2">
+        <div class="col-md-8">
+          <label for="colFormLabelSm" class="col-form-label-sm">Full Name : </label>
+          <input type="text" class="form-control form-control-sm" placeholder="Enter your full name" aria-label="City">
+        </div>
+        <div class="col-md-4">
+          <label for="colFormLabelSm" class="col-form-label-sm">Nicknames : </label>
+          <input type="text" class="form-control form-control-sm" placeholder="Enter your nickname" aria-label="City">
+        </div>
+        </div>
+
+<div class="row my-2 ">
+     <div class="col-md-12">
+    <label for="gender" class=""> Gender : </label>
+
+    <div class="col-md-4 form-check form-check-inline mx-5">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1">
+      <span class="form-check-label "> Female</span>
+    </div>
+    <div class="col-md-4 form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label "> Male </span>
+    </div>
+  </div>
+  </div>
+   
+  
+  <div class="row mt-2">
+   <div class="col-12"> 
+    <label for="inputAddress" class="col-form-label-sm"> Address : </label>
+    <input type="text" class="form-control form-control-sm" id="inputAddress" placeholder="32/4 Rankin Street">
+   </div>
+  </div>
+ 
+<div class="row g-2">
+   <div class="col-md-6">
+    <label for="inputCity" class="col-form-label-sm"> City :</label>
+    <input type="text" class="form-control form-control-sm" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="col-form-label-sm"> State :</label>
+    <select id="inputState" class="form-select form-select-sm">
+      <option selected>NY</option>
+      <option>TX</option>
+      <option>ST</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="col-form-label-sm"> Zip Code :</label>
+    <input type="text" class="form-control form-control-sm" id="inputZip">
+  </div>
+  </div>
+
+  <div class="row my-2 g-2">
+   <div class="col-md-4">
+    <label for="inputCity" class="col-form-label-sm"> Cell Phone :</label>
+    <input type="number" class="form-control form-control-sm" placeholder="Enter a valid cell number" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="col-form-label-sm"> Work Phone :</label>
+    <input type="number" class="form-control form-control-sm" placeholder="Work phone number if exist" id="inputZip">
+  </div>
+  <div class="col-md-4">
+    <label for="inputZip" class="col-form-label-sm"> Home Phone :</label>
+    <input type="number" class="form-control form-control-sm" placeholder="Enter home contact number" id="inputZip">
+  </div>
+  </div>
+
+  <div class="row my-2 g-2">
+   <div class="col-md-4">
+    <label for="inputCity" class="col-form-label-sm "> Date Of Birth :</label>
+    <input type="date" class="form-control form-control-sm" placeholder="Enter a valid cell number" id="inputCity">
+  </div>
+  <div class="col-md-2">
+    <label for="inputState" class="col-form-label-sm"> Age :</label>
+    <input type="number" class="form-control form-control-sm" placeholder="Enter your age" id="inputZip">
+  </div>
+  <div class="col-md-3">
+    <label for="inputZip" class="col-form-label-sm"> Height :</label>
+    <input type="text" class="form-control form-control-sm" placeholder="example, 5.7 inches " id="inputZip">
+  </div>
+  <div class="col-md-3">
+    <label for="inputZip" class="col-form-label-sm"> Weight :</label>
+    <input type="text" class="form-control form-control-sm" placeholder="Your current weight" id="inputZip">
+  </div>
+  </div>
+
+   <div class="row my-2">
+   <div class="col-12"> 
+    <label for="inputAddress" class="col-form-label-sm"> Place Of Birth  : </label>
+    <input type="text" class="form-control form-control-sm" placeholder="(State, Province, District, Country)">
+   </div>
+  </div>
+
+  <div class="row my-2 g-2">
+        <div class="col-md-6">
+          <label for="colFormLabelSm" class="col-form-label-sm"> Email : </label>
+          <input type="email" class="form-control form-control-sm" placeholder="Enter a valid email address" id="inputEmail">
+        </div>
+        <div class="col-md-6">
+          <label for="colFormLabelSm" class="col-form-label-sm"> Website :</label>
+          <input type="url" class="form-control form-control-sm" placeholder="Website address if any?">
+        </div>
+  </div>
+
+   <div class="row my-4">
+     <div class="col-md-12">
+    <label for="maritalStatus" class="col-md-4"> Current Marital Status : </label>
+     <div class="form-check form-check-inline col-md-2">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <span class="form-check-label "> Married</span>
+    </div>
+    <div class="form-check form-check-inline col-md-2">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label "> Divorced </span>
+    </div>
+    <div class="form-check form-check-inline col-md-2">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+      <span class="form-check-label "> Widowed </span>
+    </div>
+  </div>
+  </div>
+
+  <div class="row my-4">
+     <div class="col-md-6">
+    <label for="child"> Do you have any Children? </label>
+     <div class="form-check form-check-inline mx-2">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <span class="form-check-label "> Yes</span>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label "> No </span>
+    </div> 
+    </div>
+    <div class="col-md-6">
+      <input type="text" class="form-control form-control-sm" placeholder="If Yes, mention the number of child and their ages">
+    </div>
+  </div>
+
+  <div class="row my-4">
+   <div class="col-md-12"> 
+    <label for="inputAddress" class="col-form-label-sm"> Please, disclose if you have any health problems, allergies or any disabilities  : </label>
+    <input type="text" class="form-control form-control-sm" placeholder="write here....">
+   </div>
+  </div>
+
+  <div class="row my-4">
+   <div class="col-md-8"> 
+    <label for="inputAddress" class="col-form-label-sm"> If you are a reverted Muslim, please tell us, when did you accept Islam? </label>
+   </div>
+   <div class="col-md-4">
+    <input type="date" class="form-control form-control-sm" placeholder="Enter a valid cell number" id="inputCity">
+  </div>
+  </div>
+
+
+   
+
+  <div class="row mt-4 border rounded box">
+     <div class="col-md-2">
+        <label for="child"> Personal religious practice  </label>
+     </div>
+     <div class="col-md-10">
+       <div class="form-check inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <span class="form-check-label " >Hanafi</span>
+    </div>
+    <div class="form-check inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label ">Shafiee </span>
+    </div>
+     <div class="form-check inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option3">
+      <span class="form-check-label ">Maliki </span>
+    </div>
+     <div class="form-check inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option4">
+      <span class="form-check-label ">Hanbali </span>
+    </div>
+     <div class="form-check inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option5">
+      <span class="form-check-label ">Ahle Hadith </span>
+    </div>
+     <div class="form-check inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option6">
+      <span class="form-check-label ">Sunni </span>
+    </div>
+     <div class="form-check inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option7">
+      <span class="form-check-label "> Shi’ite </span>
+    </div>
+    <div class="form-check inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option7">
+      <span class="form-check-label "> Other (Please specify below) : </span>
+    </div>
+    <input type="text" class="form-control form-control-sm" placeholder="Your religious view">
+   </div>
+  </div> 
+
+  <div class="row">
+   <div class="col-md-12"> 
+    <label for="inputAddress" class="col-form-label-sm"> Please write about your religious practices, in brief (example : daily prayers, fasting, attending halaqas etc.) : </label>
+    <input type="text" class="form-control form-control-sm" placeholder="write here....">
+   </div>
+  </div>
+  
+
+  <div class="row my-4 ">
+     <div class="col-md-3">
+    <label for="gender" class=""> Do you smoke? </label>
+     </div>
+    <div class="col-md-3 form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1">
+      <span class="form-check-label ">Yes, I do.</span>
+    </div>
+    <div class="col-md-3 form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label "> No, I do not smoke. </span>
+    </div>
+  </div>
+
+
+  <div class="row my-4">
+     <div class="col-md-6">
+    <label for="child"> This question is only for brothers :</label>
+     <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <span class="form-check-label "> I have beard</span>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label "> I don't have beard </span>
+    </div> 
+    </div>
+    <div class="col-md-6">
+    <label for="hijab"> This question is only for sisters- I wear </label>
+     <div class="form-check inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <span class="form-check-label ">Headscarf</span>
+    </div>
+    <div class="form-check inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label "> Jelbab/Abaya </span>
+    </div> 
+    <div class="form-check inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+      <span class="form-check-label "> Niqab </span>
+    </div> 
+    <div class="form-check inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+      <span class="form-check-label "> None </span>
+    </div> 
+    </div>
+  </div>
+
+  <div class="row mt-4 border rounded box">
+     <div class="col-md-2">
+        <label for="child"> Immigration status</label>
+     </div>
+     <div class="col-md-10">
+       <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <span class="form-check-label " >US Citizen</span>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label ">Permanent Resident </span>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option7">
+      <span class="form-check-label "> Other (Please specify below) : </span>
+    </div>
+    <input type="text" class="form-control form-control-sm" placeholder="Your immigration status here..">
+   </div>
+  </div> 
+  <div class="row mt-4 border rounded box">
+     <div class="col-md-2">
+        <label for="child">Professional background</label>
+     </div>
+     <div class="col-md-10">
+       <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <span class="form-check-label " >Job</span>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label ">Business</span>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option7">
+      <span class="form-check-label "> Other  </span>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option7">
+      <span class="form-check-label "> Unemployed  </span>
+    </div>
+    <input type="text" class="form-control form-control-sm" placeholder="Write about your work position and your income">
+   </div>
+  </div> 
+
+
+  <div class="row my-4 border rounded box">
+      <div class="row text-center border rounded box">
+        <h5 class="text-uppercase"> Academic Background</h5>
+      </div>
+    <div class="row g-1">
+      <div class="col-md-8">
+       <label for="inputAddress" class="col-form-label-sm"> High School : </label>
+       <input type="text" class="form-control form-control-sm" placeholder="Name of degree and institution here" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputAddress" class="col-form-label-sm"> Passing Year : </label>
+        <input type="text" class="form-control form-control-sm" placeholder="Year of Completion">
+      </div>
+   </div>
+   <div class="row g-1">
+      <div class="col-md-8">
+       <label for="inputAddress" class="col-form-label-sm"> Bachelors in : </label>
+       <input type="text" class="form-control form-control-sm" placeholder="Name of degree and institution here" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputAddress" class="col-form-label-sm"> Passing Year : </label>
+        <input type="text" class="form-control form-control-sm" placeholder="Year of Completion">
+      </div>
+   </div>
+   <div class="row g-1">
+      <div class="col-md-8">
+       <label for="inputAddress" class="col-form-label-sm"> Masters in : </label>
+       <input type="text" class="form-control form-control-sm" placeholder="Name of degree and institution here" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputAddress" class="col-form-label-sm"> Passing Year : </label>
+        <input type="text" class="form-control form-control-sm" placeholder="Year of Completion">
+      </div>
+   </div>
+   <div class="row g-1">
+      <div class="col-md-8">
+       <label for="inputAddress" class="col-form-label-sm"> PhD or Other Degree (if any?) : </label>
+       <input type="text" class="form-control form-control-sm" placeholder="Name of degree and institution here" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputAddress" class="col-form-label-sm"> Passing Year : </label>
+        <input type="text" class="form-control form-control-sm" placeholder="Year of Completion">
+      </div>
+   </div>
+  </div>
+</div>
+
+
+    <!--     PARENT/GUARDIAN’S INFORMATION -->
+    <div class="container">
+      <div class="row text-center bg-secondary text-light border rounded box my-3">
+        <h5> PARENT/GUARDIAN’S INFORMATION</h5>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row g-2">
+        <div class="col-md-6">
+          <label for="colFormLabelSm" class="col-form-label-sm">Full Name : </label>
+          <input type="text" class="form-control form-control-sm" placeholder="Guardian one">
+        </div>
+        <div class="col-md-3">
+          <label for="colFormLabelSm" class="col-form-label-sm"> Relationship : </label>
+          <input type="text" class="form-control form-control-sm" placeholder="Relationship with you">
+        </div>
+        <div class="col-md-3">
+          <label for="colFormLabelSm" class="col-form-label-sm"> Profession : </label>
+          <input type="text" class="form-control form-control-sm" placeholder="Relationship with you">
+        </div>
+      </div>
+      <div class="row g-2">
+        <div class="col-md-6">
+          <label for="colFormLabelSm" class="col-form-label-sm">Full Name : </label>
+          <input type="text" class="form-control form-control-sm" placeholder="Guardian two">
+        </div>
+        <div class="col-md-3">
+          <label for="colFormLabelSm" class="col-form-label-sm"> Relationship : </label>
+          <input type="text" class="form-control form-control-sm" placeholder="Relationship with you">
+        </div>
+        <div class="col-md-3">
+          <label for="colFormLabelSm" class="col-form-label-sm"> Profession : </label>
+          <input type="text" class="form-control form-control-sm" placeholder="Relationship with you">
+        </div>
+      </div>
+  
+  <div class="row mt-2 g-2">
+   <div class="col-md-8"> 
+    <label for="inputAddress" class="col-form-label-sm"> Address : </label>
+    <input type="text" class="form-control form-control-sm" id="inputAddress" placeholder="32/4 Rankin Street">
+   </div>
+   <div class="col-md-4"> 
+    <label for="inputAddress" class="col-form-label-sm"> City : </label>
+    <input type="text" class="form-control form-control-sm" id="inputAddress">
+   </div>
+  </div>
+ 
+<div class="row g-2"> 
+  <div class="col-md-4">
+    <label for="inputState" class="col-form-label-sm"> State :</label>
+    <select id="inputState" class="form-select form-select-sm">
+      <option selected>NY</option>
+      <option>TX</option>
+      <option>ST</option>
+    </select>
+  </div>
+  <div class="col-md-4">
+    <label for="inputCity" class="col-form-label-sm"> Country :</label>
+    <input type="text" class="form-control form-control-sm">
+  </div>
+  <div class="col-md-4">
+    <label for="inputZip" class="col-form-label-sm"> Zip Code :</label>
+    <input type="text" class="form-control form-control-sm">
+  </div>
+  </div>
+
+   <div class="row my-2">
+   <div class="col-md-12"> 
+    <label for="inputAddress" class="col-form-label-sm"> Please, enter any additional information about your family that you would like to share : </label>
+    <input type="text" class="form-control form-control-sm" placeholder="write here....">
+   </div>
+  </div> 
+</div> 
+
+
+
+<!-- SPOUSAL PREFERENCES -->
+
+
+    <div class="container">
+      <div class="row mt-4 text-center bg-secondary text-light border rounded box">
+        <h5> SPOUSAL PREFERENCES</h5>
+      </div>
+    </div>
+    <div class="container">
+    <div class="row mt-3 border rounded box">
+     <div class="col-md-2">
+        <label for="child"> Religious Practices   </label>
+     </div>
+     <div class="col-md-10">    
+     <div class="form-check inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option6">
+      <span class="form-check-label ">Sunni </span>
+    </div>
+     <div class="form-check inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option7">
+      <span class="form-check-label "> Shi’ite </span>
+    </div>
+    <div class="form-check inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option7">
+      <span class="form-check-label "> Other (Please specify below) : </span>
+    </div>
+    <input type="text" class="form-control form-control-sm" placeholder="Your religious preference">
+   </div>
+  </div> 
+
+  <div class="row">
+   <div class="col-md-12"> 
+    <label for="inputAddress" class="col-form-label-sm"> Do you have any religious preferences? If yes, then write in brief : </label>
+    <input type="text" class="form-control form-control-sm" placeholder="write here....">
+   </div>
+  </div>
+
+
+  <div class="row border rounded box my-4">
+    <div class="col-md-7">
+    <label for="hijab">This question is only for brothers  : </label>
+    <p class="my-0">(preferences for a wife)</p>
+     <div class="form-check inline">
+      <input class="form-check-input " type="checkbox" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <span class="form-check-label ">Headscarf</span>
+    </div>
+    <div class="form-check inline">
+      <input class="form-check-input " type="checkbox" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label "> Jelbab/Abaya</span>
+    </div> 
+    <div class="form-check inline">
+      <input class="form-check-input " type="checkbox" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+      <span class="form-check-label "> Niqab </span>
+    </div> 
+    <div class="form-check inline">
+      <input class="form-check-input " type="checkbox" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+      <span class="form-check-label "> No preference </span>
+    </div> 
+    </div>
+     <div class="col-md-5">
+    <label for="child"> This question is only for sisters :</label>
+    <p class="my-0">(preferences for a husband)</p>
+     <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <span class="form-check-label ">Beard</span>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label "> No beard </span>
+    </div> 
+    <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label "> No preference </span>
+    </div> 
+    </div>
+  </div>
+  
+
+  <div class="row my-4 ">
+     <div class="col-md-4">
+    <label for="gender" class=""> Are you fine with smoking? </label>
+     </div>
+    <div class="col-md-2 form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1">
+      <span class="form-check-label ">Yes</span>
+    </div>
+    <div class="col-md-2 form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label "> No </span>
+    </div>
+    <div class="col-md-3 form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label "> No Preference</span>
+    </div>
+  </div>
+
+
+
+  <div class="row border rounded box">
+    <label for="ethnic" class="my-2">Ethnic background :</label>
+     <div class=" col-md-5 form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <span class="form-check-label ">I prefer my future spouse from my own ethnic background or origin (specify) :</span>
+      <input type="text" class="form-control form-control-sm" placeholder="write here....">
+    </div>
+    <div class="col-md-4 form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label "> I am seeking my future spouse to be from
+a specific ethnicity or origin(specify) : </span>
+      <input type="text" class="form-control form-control-sm" placeholder="write here....">
+    </div> 
+    <div class="col-md-2 form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label "> No preference </span>
+    </div> 
+  </div>
+
+  <div class="row mt-4 border rounded box">
+     <div class="col-md-2">
+        <label for="child"> Immigration status</label>
+     </div>
+     <div class="col-md-10">
+       <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <span class="form-check-label " >US Citizen</span>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label ">Permanent Resident </span>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option7">
+      <span class="form-check-label "> Other (Please specify below) : </span>
+    </div>
+    <input type="text" class="form-control form-control-sm" placeholder="Your immigration status here..">
+   </div>
+  </div> 
+   <div class="row my-4">
+     <div class="col-md-12">
+    <label for="maritalStatus" class="col-md-6">Marital Status (I prefer a spouse who’s) : </label>
+     <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <span class="form-check-label "> Single</span>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label "> Divorced </span>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+      <span class="form-check-label "> Widowed </span>
+    </div>
+  </div>
+  </div>
+
+   <div class="row my-4">
+     <div class="col-md-12">
+    <label for="ChildPref" class="col-md-8"> Children : (I am willing to consider a spouse with existing children)</label>
+     <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <span class="form-check-label "> Yes</span>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <span class="form-check-label "> No </span>
+    </div>
+  </div>
+  </div>
+ </div>
+
+ <!-- ADDITIONAL INFORMATION -->
+
+    <div class="container">
+      <div class="row text-center bg-secondary text-light border rounded box my-3">
+        <h5> ADDITIONAL INFORMATION</h5>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <h5>Please submit at least 3 personal and/or professional references :</h5>
+      </div>
+      <div class="row g-2">
+        <div class="col-md-6">
+          <label for="colFormLabelSm" class="col-form-label-sm">Full Name : </label>
+          <input type="text" class="form-control form-control-sm" placeholder="name of the person">
+        </div>
+        <div class="col-md-3">
+          <label for="colFormLabelSm" class="col-form-label-sm"> Relationship : </label>
+          <input type="text" class="form-control form-control-sm" placeholder="relationship with you">
+        </div>
+        <div class="col-md-3">
+          <label for="colFormLabelSm" class="col-form-label-sm"> Phone : </label>
+          <input type="text" class="form-control form-control-sm" placeholder="phone number here..">
+        </div>
+      </div>
+      <div class="row g-2">
+        <div class="col-md-6">
+          <label for="colFormLabelSm" class="col-form-label-sm">Full Name : </label>
+          <input type="text" class="form-control form-control-sm" placeholder="name of the person">
+        </div>
+        <div class="col-md-3">
+          <label for="colFormLabelSm" class="col-form-label-sm"> Relationship : </label>
+          <input type="text" class="form-control form-control-sm" placeholder="relationship with you">
+         </div>
+        <div class="col-md-3">
+          <label for="colFormLabelSm" class="col-form-label-sm"> Phone : </label>
+          <input type="text" class="form-control form-control-sm" placeholder="phone number here..">
+        </div>
+      </div>
+        <div class="row g-2">
+        <div class="col-md-6">
+          <label for="colFormLabelSm" class="col-form-label-sm">Full Name : </label>
+          <input type="text" class="form-control form-control-sm" placeholder="name of the person">
+        </div>
+        <div class="col-md-3">
+          <label for="colFormLabelSm" class="col-form-label-sm"> Relationship : </label>
+          <input type="text" class="form-control form-control-sm" placeholder="relationship with you">
+        </div>
+        <div class="col-md-3">
+          <label for="colFormLabelSm" class="col-form-label-sm"> Phone : </label>
+          <input type="text" class="form-control form-control-sm" placeholder="phone number here..">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- AGREEMENT -->
+    <div class="container">
+      <div class="row text-center bg-secondary text-light border rounded box my-3">
+        <h5>AGREEMENT</h5>
+      </div>
+      <div class="d-flex justify-content-center my-2">
+      <ul>
+        <li>I, <input type="text" class="form-control-inline form-control-sm" placeholder="Your name here.."> hereby certify that the information given in this form is true, correct, and complete in all respects. If there is any incorrect information in this form, I may be removed from the process.</li>
+        <li>I will promptly inform MUNA Matrimonial Team of any changes in the information provided above.</li>
+        <li>I authorize MUNA Matrimonial Team to utilize the information provided by me according to the needs of the service.</li>
+        <li>I pledge to keep all the information provided by the MUNA Matrimonial Team confidential</li>
+        <li>If I get married at any time, I will inform the MUNA Matrimonial Team.</li>
+        <li>As the MUNA Matrimonial Team is only introducing 2 parties to each other, in the event of a failure to arrange amarriage, I shall not hold MUNA Matrimonial Team or MUNA responsible. I agree to abide by decisions and rulingsgiven by MUNA National President or his designated representatives in matters of disputes and will abide by decisionsof MUNA, its National President, and/or their representatives.</li>
+      </ul>
+
+    </div>
+    <p>
+      By submitting this form, I agree to a complete and thorough criminal and background check by MUNA Matrimonial Team. By signing this contract, I approve to a background check.
+    </p>
+    <hr>
+    <div class="row my-5">
+        <div class="col-md-6">
+          <label for="colFormLabelSm" class="col-form-label-sm">Full Name : </label>
+          <input type="text" class="form-control form-control-sm" placeholder="Your full name here..">
+        </div>
+        <div class="col-md-3">
+          
+        </div>
+        <div class="col-md-3">
+          <label for="colFormLabelSm" class="col-form-label-sm"> Date : </label>
+          <input type="date" class="form-control form-control-sm">
+        </div>
+      </div>
+    </div> 
+
+
+ <div class="row d-flex justify-content-center my-4">
+     <button type="submit" class="btn btn-secondary w-25">SUBMIT</button>
+ </div>
+
+
+
+    
+
+
+
+
+
+
+
+</form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+      
+       
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+</head>
+<body>
+  
+</body>
+</html>
